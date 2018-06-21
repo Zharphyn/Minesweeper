@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- 
+    Minesweeper base HTML framework
+    Copyright (c) 2018 Brad Thiessen, All rights reserved 
+    Do not use without permission
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dragonsweeper</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- css for page -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.js"></script> <!-- Buzz sound and music effects -->
+    <script type="module" src="scripts/main.js"></script> <!-- Custom Javascript functionality for gameplay -->
+</head>
+<body>
+
+        <section id="results-screen" class= "hide">
+
+        </section>
+
+        <section id="game-screen" class="hide">
+            <table id="game-board">
+            </table>
+        </section>
+
+        <section id="splash-screen" class="show">
+            <div class="splash-screen">
+                <div id="background-image"></div>
+                <div id= "play-now-btn" class="play-button">Start Game</div>
+            </div>
+        </section>
+
+        <section id="scripts" class="show">
+
+        </section>
+
+</body>
+</html>
